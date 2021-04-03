@@ -43,10 +43,9 @@ body, div#root, div#root>div, html{
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 40px;
   line-height: 155.5%;
   text-align: center;
-  color: rgb(29, 29, 29);
   margin-bottom: 63px;
 }
 
