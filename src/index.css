@@ -89,6 +89,15 @@ body{
   color: rgb(44, 44, 44);
 }
 
+.cdNgSy:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+.cdNgSy:active {
+  color:#8e4d2d;
+}
+
 .bqQQkU {
   font-family: "Noto Sans";
   font-style: normal;
