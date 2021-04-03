@@ -69,6 +69,46 @@ body{
   padding: 10px;
 }
 
+.cdNgSy {
+  width: 100%;
+  left: 16px;
+  right: 16px;
+  height: 96px;
+  background: #f7f4e3;
+  border: 1px dashed rgb(203, 203, 203);
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: center;
+  word-break: keep-all;
+  padding: 0px 24px 0px 16px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(44, 44, 44);
+}
+
+.bqQQkU {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #8e4d2d;
+}
+
+.ltnna {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: inherit;
+  margin-left: 15px;
+  word-break: break-all;
+}
+
 .preBtn{
     left: 5px;
     position: absolute;
