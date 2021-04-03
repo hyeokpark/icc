@@ -49,6 +49,22 @@ body, div#root, div#root>div, html{
   margin-bottom: 63px;
 }
 
+.ianmHN {
+  height: 56px;
+  margin: 80px 48px 48px;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: 0px solid black;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 155.5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 300px;
+}
+
 .preBtn{
     left: 5px;
     position: absolute;
