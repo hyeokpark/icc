@@ -15,6 +15,18 @@ function Love(props) {
                 <div className="card__ButtonIndex-sc-1uagafc-4 bqQQkU">B</div>
                 <div className="card__ButtonText-sc-1uagafc-5 ltnna">일단 만나 얼굴보고 대화로 해결 한다</div>
             </button>
+            <button className="common__DefaultButton-tzij20-2 cdNgSy btn-on-click">
+                <div className="card__ButtonIndex-sc-1uagafc-4 bqQQkU">B</div>
+                <div className="card__ButtonText-sc-1uagafc-5 ltnna">일단 만나 얼굴보고 대화로 해결 한다</div>
+            </button>
+            <button className="common__DefaultButton-tzij20-2 cdNgSy btn-on-click">
+                <div className="card__ButtonIndex-sc-1uagafc-4 bqQQkU">B</div>
+                <div className="card__ButtonText-sc-1uagafc-5 ltnna">일단 만나 얼굴보고 대화로 해결 한다</div>
+            </button>
+            <button className="common__DefaultButton-tzij20-2 cdNgSy btn-on-click">
+                <div className="card__ButtonIndex-sc-1uagafc-4 bqQQkU">B</div>
+                <div className="card__ButtonText-sc-1uagafc-5 ltnna">일단 만나 얼굴보고 대화로 해결 한다</div>
+            </button>
         </div>
 
         <div className="jzEppV" style={{fontSize:'14px',color:'#a2a2a2'}}>Born to be Loved</div>
