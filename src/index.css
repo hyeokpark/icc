@@ -12,6 +12,10 @@ body, div#root, div#root>div, html{
   -webkit-tap-highlight-color: transparent;
 }
 
+body{
+  background: #f7f4e3;
+}
+
 .main {
   width: 100%;
   height: auto;
