@@ -2,6 +2,8 @@ import '../App.css';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import LoveResultConfig from '../config/LoveResultConfig';
 
+import { VictoryAxis, VictoryBar, VictoryChart, VictoryLabel, VictoryPolarAxis } from "victory";
+
 function LoveResult(props) {
     const loveResultConfig = useMemo(() => {
         return LoveResultConfig;
@@ -24,7 +26,7 @@ function LoveResult(props) {
                 result = key;
             }
 
-            t.push({ title: loveResultConfig[key].title, cnt: props.result[key] });
+            t.push({ title: loveResultConfig[key].title.split('(')[0], cnt: props.result[key] });
         }
 
         setResultTitle(loveResultConfig[result].title);
@@ -46,9 +48,13 @@ function LoveResult(props) {
                 {resultContents}
             </div>
 
-            {totalArr.map((a,idx) => {
-                return <div key={idx} className="jzEppV" style={{ fontSize: '15px', textAlign: 'left', padding: '0px 10px', marginBottom: '0px' }}> {a.title + ':' + a.cnt + ' '}</div>;
-            })}
+
+            <VictoryChart domainPadding={20} animate={{
+                duration: 500
+            }}>
+                <VictoryAxis />
+                <VictoryBar labels={({ datum }) => datum.cnt} data={totalArr} x="title" y="cnt" />
+            </VictoryChart>
         </>
     );
 }

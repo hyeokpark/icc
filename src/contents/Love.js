@@ -31,7 +31,7 @@ function Love(props) {
         } else {
             value = event.target.value;
         }
-        
+
         if (!obj[value]) {
             obj[value] = 1;
         } else {
@@ -49,7 +49,7 @@ function Love(props) {
 
     return (
         <>
-            {!result && <><div style={{ marginBottom: '80px', width: '100%' }}>
+            {!result && <><div style={{ marginBottom: '30px', width: '100%' }}>
                 <button onClick={handleClick} value={q1.type} className="cdNgSy">
                     <div onClick={(event) => { handleClick(q1.type); event.stopPropagation(); }} className="card__ButtonIndex-sc-1uagafc-4 bqQQkU">A</div>
                     <div onClick={(event) => { handleClick(q1.type); event.stopPropagation(); }} className="card__ButtonText-sc-1uagafc-5 ltnna">{q1.text}</div>
