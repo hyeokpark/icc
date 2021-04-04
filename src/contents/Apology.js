@@ -53,8 +53,6 @@ function Apology(props) {
             value = event.target.value;
         }
 
-        console.log(value);
-
         if (!obj[value]) {
             obj[value] = 1;
         } else {

@@ -45,7 +45,7 @@ function ApologyResult(props) {
             <div className="jzEppV" style={{ fontSize: '20px', marginBottom: '10px' }}>
                 당신의 사과의 언어는?
             </div>
-            <div className="jzEppV" style={{ fontSize: '24px', marginBottom: '10px', padding: '0px 10px', color: '#f399a5', fontWeight: 'bold', marginBottom: '0px' }}>
+            <div className="jzEppV" style={{ fontSize: '30px', marginBottom: '10px', padding: '0px 10px', color: '#7abdc4', fontWeight: 'bold', marginBottom: '50px' }}>
                 {resultTitle}
             </div>
 
