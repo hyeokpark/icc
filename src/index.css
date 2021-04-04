@@ -141,3 +141,41 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
+
+.hDexSx {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 140%;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-left: 12px;
+  margin-right: 12px;
+  white-space: pre-line;
+}
+
+.jvCKnu {
+  width: 100%;
+  height: auto;
+  min-height: 75px;
+  padding: 26px 0px;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.hpxqhj {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: rgb(255, 255, 255);
+  margin-left: 16px;
+}
