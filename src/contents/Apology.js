@@ -71,7 +71,7 @@ function Apology(props) {
     return (
         <>
             {!result && <><div style={{ marginBottom: '30px', width: '100%' }}>
-                <div className="card__TitleLayer-sc-1uagafc-1 jvCKnu" style={{ backgroundColor: '#8e4d2d' }}>
+                <div className="card__TitleLayer-sc-1uagafc-1 jvCKnu" style={{ backgroundColor: '#3a2115' }}>
                     <div className="card__QuestionNumber-sc-1uagafc-2 hpxqhj">{apologyCnt + 1}.</div>
                     <div className="card__Question-sc-1uagafc-3 hDexSx">{q.title}</div>
                 </div>
