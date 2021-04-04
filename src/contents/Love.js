@@ -31,9 +31,7 @@ function Love(props) {
         } else {
             value = event.target.value;
         }
-
-        console.log(value);
-
+        
         if (!obj[value]) {
             obj[value] = 1;
         } else {
@@ -65,7 +63,7 @@ function Love(props) {
             }
             {result && <LoveResult result={result} />}
 
-            <div className="jzEppV" style={{ fontSize: '14px', color: '#a2a2a2' }}>Born to be Loved</div>
+            <div className="jzEppV" style={{ fontSize: '14px', color: '#a2a2a2', marginTop: '100px' }}>Born to be Loved</div>
         </>
     );
 }
